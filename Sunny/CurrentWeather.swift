@@ -5,13 +5,10 @@
 //
 
 
-//Get phone's GPS coordinates and use them to make an API call
-//Create variables for wind, humidity and barometric pressure
-
-//Create .swift file and new class for 10 day forecast
-//Form variables for 10 day forecast
-//Assign forecast variables to TableView cells
-
+//Get phone's GPS coordinates and use them to make an API call // done
+//Create variables for wind, humidity and barometric pressure // done
+//Parse weather data for the next week
+//Reverse geocode for town and country // done
 
 import Foundation
 import Alamofire
