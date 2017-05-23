@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E31206C1ECB3FF300E52633 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E31206B1ECB3FF300E52633 /* Utility.swift */; };
+		1E31206E1ECB43A100E52633 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E31206D1ECB43A100E52633 /* CurrentWeather.swift */; };
+		1E76A4691ECF51DD000CD80D /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76A4681ECF51DD000CD80D /* GeoLocation.swift */; };
 		1EBB7ED41EC8738A006D685D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB7ED31EC8738A006D685D /* AppDelegate.swift */; };
 		1EBB7ED61EC8738A006D685D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB7ED51EC8738A006D685D /* MainVC.swift */; };
 		1EBB7ED91EC8738A006D685D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB7ED71EC8738A006D685D /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		1EBB7EDE1EC8738A006D685D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB7EDC1EC8738A006D685D /* LaunchScreen.storyboard */; };
 		1EBB7EE91EC8738A006D685D /* SunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB7EE81EC8738A006D685D /* SunnyTests.swift */; };
 		1EBB7EF41EC8738A006D685D /* SunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB7EF31EC8738A006D685D /* SunnyUITests.swift */; };
+		1EE88AFA1ED34BC100835FCD /* ForecastWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE88AF91ED34BC100835FCD /* ForecastWeather.swift */; };
 		6264D82E73058A73E1C51671 /* Pods_Sunny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83BDE0CD2EDB0E4F5E377FE /* Pods_Sunny.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E31206B1ECB3FF300E52633 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		1E31206D1ECB43A100E52633 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		1E76A4681ECF51DD000CD80D /* GeoLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
 		1EBB7ED01EC87389006D685D /* Sunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBB7ED31EC8738A006D685D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EBB7ED51EC8738A006D685D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -48,6 +55,7 @@
 		1EBB7EEF1EC8738A006D685D /* SunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBB7EF31EC8738A006D685D /* SunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyUITests.swift; sourceTree = "<group>"; };
 		1EBB7EF51EC8738A006D685D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE88AF91ED34BC100835FCD /* ForecastWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastWeather.swift; sourceTree = "<group>"; };
 		62BF2090E21A1E58701A1BBA /* Pods-Sunny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunny.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sunny/Pods-Sunny.release.xcconfig"; sourceTree = "<group>"; };
 		8851B5843CEA69C9A71A88E9 /* Pods-Sunny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sunny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sunny/Pods-Sunny.debug.xcconfig"; sourceTree = "<group>"; };
 		A83BDE0CD2EDB0E4F5E377FE /* Pods_Sunny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,12 +112,16 @@
 		1EBB7ED21EC87389006D685D /* Sunny */ = {
 			isa = PBXGroup;
 			children = (
-				1EBB7ED31EC8738A006D685D /* AppDelegate.swift */,
 				1EBB7ED51EC8738A006D685D /* MainVC.swift */,
-				1EBB7ED71EC8738A006D685D /* Main.storyboard */,
+				1E76A4681ECF51DD000CD80D /* GeoLocation.swift */,
+				1E31206D1ECB43A100E52633 /* CurrentWeather.swift */,
+				1EE88AF91ED34BC100835FCD /* ForecastWeather.swift */,
+				1E31206B1ECB3FF300E52633 /* Utility.swift */,
 				1EBB7EDA1EC8738A006D685D /* Assets.xcassets */,
 				1EBB7EDC1EC8738A006D685D /* LaunchScreen.storyboard */,
+				1EBB7ED71EC8738A006D685D /* Main.storyboard */,
 				1EBB7EDF1EC8738A006D685D /* Info.plist */,
+				1EBB7ED31EC8738A006D685D /* AppDelegate.swift */,
 			);
 			path = Sunny;
 			sourceTree = "<group>";
@@ -339,6 +351,10 @@
 			files = (
 				1EBB7ED61EC8738A006D685D /* MainVC.swift in Sources */,
 				1EBB7ED41EC8738A006D685D /* AppDelegate.swift in Sources */,
+				1E76A4691ECF51DD000CD80D /* GeoLocation.swift in Sources */,
+				1EE88AFA1ED34BC100835FCD /* ForecastWeather.swift in Sources */,
+				1E31206E1ECB43A100E52633 /* CurrentWeather.swift in Sources */,
+				1E31206C1ECB3FF300E52633 /* Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
